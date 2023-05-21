@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="slick.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-all.min.css">
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="styles-modified.css">
+</head>
+
+<body>
+
+
+
+    <nav class="navbar  navbar-expand-lg navbar-light  border-bottom shadow  nav-left "
+        style="background-color: #101c28;">
+
+        <div class="container-fluid col-10">
+
+            <a class="navbar-brand" href="#" style="height:75px">
+                <img style="margin-top: -20px;" src="" alt="" width="70"
+                    height="auto">
+            </a>
+
+
+            <div class="navbar-collapse collapse navbar-right pe-5 justify-content-center" id="navbarNav">
+
+
+                <ul class="nav navbar-nav ">
+                    <li class="nav-item" style="padding: 14px 16px;">
+                        <a class="nav-link  font-weight-bold text-light" href="#">Features</a>
+                    </li>
+                    <li class="nav-item" style="padding: 14px 16px;">
+                        <a class="nav-link  font-weight-bold text-light"
+                            href="#contact">Pricing</a>
+                    </li>
+                    <li class="nav-item" style="padding: 14px 16px;">
+                        <a class="nav-link  font-weight-bold text-light" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item" style="padding: 14px 16px;">
+                        <a class="nav-link  font-weight-bold text-light"
+                            href="#ecommerce-pricing/">Pricing</a>
+                    </li>
+                    <li class="nav-item" style="padding: 14px 16px;">
+                        <a class="nav-link  font-weight-bold text-light" href="#">FAQ</a>
+                    </li>
+                    <li class="nav-item" style="padding: 14px 16px;">
+                        <a class="nav-link  font-weight-bold text-light"
+                            href="#portfolio">Portfolio</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="row">
+
+        <div class="col-lg-6  ">
+
+            <div class="mb-13 text-center">
+                <!--begin::Title-->
+                <h1 class="mb-3 mt-3 mt-10">Create Label</h1>
+                <!--end::Title-->
+                <!--begin::Description-->
+
+                <!--end::Description-->
+            </div>
+            <div class="col-12 d-flex justify-content-center align-items-center mt-5 ml-5 demo">
+                <form style="width: 100%;" id="input-form">
+
+                    <div class="d-flex flex-column mb-8 fv-row">
+                        <!--begin::Label-->
+                        <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                            <span class="required">Product Name</span>
+                            <!-- <i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip"
+                                title="Specify a subject for your issue"></i> -->
+                        </label>
+
+                        <!--end::Label-->
+                        <input type="text" class="form-control form-control-solid" maxlength="12"
+                            placeholder="Maximum of 12 characters" id="text-input" required />
+                        <!-- <input type="text" maxlength="15" id="text-input" placeholder="Enter product name"> -->
+                    </div>
+                    <div class="d-flex flex-column mb-8 fv-row" style="margin-top: 10px;">
+                        <!--begin::Label-->
+                        <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                            <span class="required">Tag Name</span>
+                            <!-- <i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip"
+                                title="Specify a subject for your issue"></i> -->
+                        </label>
+
+                        <!--end::Label-->
+                        <input type="text" class="form-control form-control-solid" maxlength="25"
+                            placeholder="Maximum of 25 characters" id="text-input1" required />
+                    </div>
+
+                    <div class="d-flex flex-column mb-8 fv-row" style="margin-top: 10px;">
+                        <!--begin::Label-->
+                        <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                            <span class="required">Quantity</span>
+                            <!-- <i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip"
+                                title="Specify a subject for your issue"></i> -->
+                        </label>
+
+                        <!--end::Label-->
+                        <input type="text" class="form-control form-control-solid" maxlength="10"
+                            placeholder="Maximum of 10 characters" id="text-input2" required />
+                    </div>
+                    <div class="d-flex flex-column mb-8 fv-row" style="margin-top: 10px;">
+                        <!--begin::Label-->
+                        <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                            <span class="required">MRP</span>
+                            <!-- <i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip"
+                                title="Specify a subject for your issue"></i> -->
+                        </label>
+
+                        <!--end::Label-->
+                        <input type="text" class="form-control form-control-solid" maxlength="25"
+                            placeholder="Maximum of 25 characters" id="text-input3" required />
+                    </div>
+                    <div class="d-flex flex-column mb-8 fv-row" style="margin-top: 20px;">
+                        <!--begin::Label-->
+                        <label class="d-flex align-items-center fs-6 fw-bold mb-2">
+                            <span class="required">Licence Number</span>
+                            <!-- <i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip"
+                                title="Specify a subject for your issue"></i> -->
+                        </label>
+
+                        <!--end::Label-->
+                        <input type="text" class="form-control form-control-solid" maxlength="15"
+                            placeholder="Maximum of 4 characters" id="text-input4" required />
+                    </div>
+
+                    <!-- <img id="image-input" src="LEBAL NEW 123-01.png"  style="display:hi;"> -->
+
+                    <input style="display: none;" class="mt-5 "
+                        src="https://template.isgoing.online/canvas/img/LEBAL%20NEW%20123-01.png" type="file"
+                        name="image-input" id="image-input" value="LEBAL NEW 123-01.png">
+                    <button type="button" class="btn btn-success mt-5"><a href="#" download="Result.png"
+                            class="btn btn-succes btn-sm" id="download-btn">Download</a></button>
+
+                </form>
+               <!-- <button onclick="ready()">ready</button> -->
+         
+            </div>
+        </div>
+        <div class="col-lg-6  ">
+            <canvas id="canvas"></canvas>
+
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
